@@ -1,0 +1,138 @@
+
+.distribute {
+	position: relative;
+}
+.distribute .distribute_detail {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.1rem;
+}
+.distribute_detail .machine_code {
+	width: 0.65rem;
+}
+.distribute .distribute_message {
+	width: 100%;
+	padding: 0.1rem;
+	box-sizing: border-box;
+}
+.selectPlanMan{
+	position: relative;
+}
+.selectPlanMan .downImg {
+	background: url('./images/down.png') no-repeat left ;
+}
+.selectPlanMan .menuShow {
+	width: 100%;
+	position: absolute;
+	top: 0.25rem;
+	left: 0;
+}
+.selectPlanMan .menuShow .menu_list {
+	height: 1.3rem;
+	background: #fff;
+	overflow: auto;
+}
+.selectPlanMan .menu_list .menu_item {
+	padding: 0.05rem 0;
+	background: #f4f4f4;
+	margin: 0.1rem 0;
+}
+.distribute_message .remark_describe {
+	height: 1.2rem;
+	border: 1px solid #ccc;
+	padding: 0.05rem;
+
+}
+.distributeImages .img_item{
+	width: 25%;
+	height: 0.9rem;
+	padding: 0.1rem;
+	box-sizing: border-box;
+}
+/*计划执行人为空的的model*/
+.distribute .planExecuteManModel{
+	width: 90%;
+	height: 1.5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #fff;
+	z-index: 1003;
+	padding: 0.2rem;
+	box-sizing: border-box;
+}
+/*确认时的弹出框*/
+.distribute .confirmModel {
+	width: 90%;
+	height: 1.5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #fff;
+	z-index: 1003;
+	padding: 0.2rem;
+	box-sizing: border-box;
+}
+/*撤销时的弹出框*/
+.distribute .cancelModel {
+	width: 90%;
+	height: 1.5rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #fff;
+	z-index: 1003;
+	padding: 0.2rem;
+	box-sizing: border-box;
+}
+.distribute .confirmTipsShowModel {
+	width: 1.2rem;
+	height: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	color: #fff;
+	opacity: 0.5;
+	background: #000;
+	z-index: 1003;
+	padding: 0.1rem;
+	box-sizing: border-box;
+	border-radius: 0.05rem;
+}
+
+.distribute .loadImage{
+	width: 0.3rem;
+	height: 0.3rem;
+}
+/*遮罩层*/
+.distribute .shade {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1002;
+}
+.distribute .color_red{
+	color: red;
+}
+
+
+
+

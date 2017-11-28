@@ -1,0 +1,89 @@
+
+.owner {
+	width: 100%;
+	height: 100%;
+	//background: #f99;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+.owner .select {
+	width: 100%;
+	height: 0.6rem;
+	background: #e9d22e;
+	border-bottom: 1px solid #ccc;
+}
+.select .select_list {
+	heigth: 0.6rem;
+	position: relative;
+}
+.select_list .type_show {
+	width: 25%;
+	position: absolute;
+	top: 0.6rem;
+	background: #f4f4f4;
+}
+.type_show .type_item {
+	height: 0.2rem;
+	padding: 0.1rem 0;
+	border-bottom: 1px solid #ccc;
+}
+.select_list .status_show {
+	width: 25%;
+	position: absolute;
+	top: 0.6rem;
+	left: 25%;
+	background: #f4f4f4;
+}
+.city_show {
+	width: 50%;
+	height: 2rem;
+	position: absolute;
+	top: 0.6rem;
+	left: 50%;
+	background: #fff;
+	overflow: auto;
+}
+.city_show .city_item{
+	padding: 0.1rem 0;
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+}
+.status_item {
+	height: 0.2rem;
+	padding: 0.1rem 0;
+	border-bottom: 1px solid #ccc;
+}
+.select_list .select_item {
+	height: 0.6rem;
+	font-size: 0.12rem;
+	background: url("./images/down.png") no-repeat right;
+	color: #555;
+}
+.owner .content {
+	width: 100%;
+	flex: 1;
+	// padding: 0.1rem;
+	// box-sizing: border-box;
+	overflow: auto;
+}
+.content_list .gread {
+	font-size: 0.16rem;
+	color: blue;
+}
+.content_list .demand {
+	width: 0.45rem;
+}
+.owner .myorder {
+	width: 100%;
+	height: 0.6rem;
+	background: #e9d22e;
+	color: #555;
+}
+.content .content_list {
+	background: #fff;
+	padding: 0.1rem;
+}
+
+
+

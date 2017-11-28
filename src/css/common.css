@@ -1,0 +1,210 @@
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    width: 0.3rem;
+    height: 0.3re;
+}
+
+.icons {
+    width: 0.2rem;
+    height: 0.26rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+.flex2 {
+    flex: 2;
+}
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+/*居中*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*align-items*/
+.align-items {
+    display: flex;
+    align-items: center;
+}
+.justify-content {
+    display: flex;
+    justify-content: center;
+}
+.flex-direction {
+    flex-direction: column;
+}
+
+.bgColorMain {
+    background: #FAD51B;
+}
+
+.bgColorWhite {
+    background: #FFFFFF;
+}
+
+.bgColorRed {
+    background: red;
+}
+/*padding*/
+.padding {
+    padding: 0.1rem;
+}
+.padding-left-right{
+    padding: 0 0.1rem;
+}
+.paddingUpDown {
+    padding: 0.1rem 0;
+}
+.padding-bottom {
+    padding-bottom: 0.1rem;
+}
+.margin-left{
+    margin-left: 0.19rem;
+}
+.marginLeft {
+    margin-left: 0.1rem;
+}
+
+.marginTop {
+    margin-top: 0.1rem;
+}
+.margin-top {
+    margin-top: 0.1rem;
+}
+.margin-bottom {
+    margin-bottom: 0.1rem;
+}
+.margin-bottom30 {
+    margin-bottom: 0.3rem;
+}
+.margin {
+    margin: 0.1rem;
+}
+/*border*/
+.border {
+    border: 0.01rem solid #cccccc;
+}
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
+.borderColorWhite {
+    border-color: white;
+}
+
+.borderRadius {
+    border-radius: 0.1rem;
+}
+.borderRadius4 {
+    border-radius: 0.04rem;
+}
+.smallBorderRadius {
+    border-radius: 0.05rem;
+}
+
+.border_bottom {
+    border-bottom: 0.01rem solid #DFDEDE;
+}
+.border_right {
+    border-right: 1px solid #ccc;
+}
+
+
+.align_items {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.space_around {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.space_between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font_white {
+    color: #fff;
+}
+
+.font_black {
+    color: #000;
+}
+
+.font_Size {
+    font-size: 0.22rem;
+}
+
+.font_color {
+    color: #000;
+}
+/*文本超出显示省略号*/
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*文本超出部分换行*/
+
+/*浮动*/
+.float-left {
+    float: left;
+}
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+    line: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.word-wrap {
+    word-wrap:break-word;
+    word-break: normal; 
+}
+/*视频文本的宽度*/
+.teachingVideo {
+    width: 0.45rem;
+}
+
+
+
+
+
+

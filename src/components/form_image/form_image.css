@@ -1,0 +1,19 @@
+
+.img_box {
+	padding: 0.1rem;
+	box-sizing: border-box;
+}
+.img_box{
+	width: 25%;
+	height: 1rem;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.img_box .img-close {
+	width: 0.15rem;
+	height: 0.15rem;
+	position: absolute;
+	top: 0.01rem;
+	right: 0.01rem;
+}
